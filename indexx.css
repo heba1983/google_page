@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+ }
+.topnavcont{
+    display:flex; 
+    margin-top:15px;
+    justify-content:flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .topnav a{
+    color: black;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size:13px;
+    font-family: Arial, sans-serif;
+    margin-right:10px;
+  }
+  .topnav a:hover{
+      text-decoration: underline;
+      cursor: pointer;
+  }
+.appicon{
+  vertical-align:-8px;
+  height: 30px;
+  width: 30px;
+ color:#727272;
+
+}
+
+.appicon:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+
+.signbtn{
+  background-color: #3c78dc;
+  color:white;
+  text-align:center;
+
+  border: 1px solid #3c78dc;
+  border-radius: 2px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 6px;
+  padding:0px 15px;
+  height: 30px;
+  font-weight: bold;
+}
+
+
+  input[type=text]{
+    width:400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    background-color: white;
+    }
+  input[type=text]:hover{
+    box-shadow: 2px 2px 2px 2px #dfe1e5;
+    border-color: #dfe1e5;
+  }
+  
+
+  .container{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    text-align: center;
+    margin-top:20px;
+}
+
+
+.btn{
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 6px;
+  padding: 0 16px;
+  height: 36px;
+  text-align: center;
+  cursor: pointer;
+  }
+  .btn:hover{
+      border:1px solid #dfe1e5;
+      color:black;
+  }
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#f2f2f2;
+    border:3px;
+    margin-bottom: 0px;
+    border:1px solid #e4e4e4;
+}
+
+.fotp{
+    display:flex;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Arial, sans-serif;
+    font-size:15px;
+    padding:10px 0 10px 0;
+    color: #717171;
+    border-bottom:1px solid #e4e4e4;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li a {
+  display: block;
+  color: #717171;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size:14px;
+}
+li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+  
+
+
+
+
+
+
+
+
